@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+h1 {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+p{
+    color: black;
+    font-family: 'Kaushan Script';
+    font-size: 30px;
+}
+
+#diff{
+    color: brown;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    line-height: 3rem;
+}

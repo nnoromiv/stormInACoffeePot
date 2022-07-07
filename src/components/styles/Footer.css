@@ -1,0 +1,44 @@
+.addTime{
+    margin: 70px 150px 0 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.logoH{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 0 0 80px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.btn {
+    padding: 20px 50px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+#addressNum{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#biz{
+    font-size: 15px;
+    line-height: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lineFooter{
+    margin: auto;
+    width: 80%;
+    padding: 2px;
+    margin-bottom: 20px;
+    color: brown;
+}
