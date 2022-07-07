@@ -42,3 +42,37 @@ p{
     margin-bottom: 20px;
     color: brown;
 }
+
+.address{
+    justify-content: flex-start;
+}
+
+.time{
+    display: grid;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 706px){
+    .addTime{
+        margin: 70px 60px 0 60px;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .btn {
+        padding: 10px 25px;
+    }
+
+}
+
+@media screen and (max-width: 548px){
+    .addTime{
+        margin: 70px 10px 0 10px;
+    }
+
+    #addressNum, #bix, h5{
+        font-size: 12px;
+    }
+
+}

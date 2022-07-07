@@ -21,15 +21,3 @@
 .bodyTitle p:last-child{
     margin-bottom: 100px;
 }
-
-.imageCarousel{
-    max-width: 1152px;
-    margin: auto;
-    
-}
-
-.imageCarousel img{
-    width: 100%;
-    height: 600px;
-    border-radius: 10px;
-}

@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+.imageCarousel{
+    max-width: 1152px;
+    margin: auto;
+    
+}
+
+.imageCarousel img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
 h1 {
     color: black;
     font-family: 'Kaushan Script', cursive;
@@ -17,4 +29,11 @@ p{
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
     line-height: 3rem;
+}
+
+
+@media screen and (max-width: 1026px) {
+    .imageCarousel img{
+       border-radius: 0;
+    }
 }

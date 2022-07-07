@@ -3,8 +3,8 @@ import './styles/BodyCarousel.css'
 
 const BodyCarousel = () => {
   return (
-    <div className='imageCarousel'>
-    <Carousel fade>
+
+    <Carousel fade className='imageCarousel'>
      <Carousel.Item>
        <img src="images/slide1.jpg" alt="Slide" /> {/*1152*600*/}
        <Carousel.Caption>
@@ -55,7 +55,7 @@ vegan, no sugar, healthy</p>
      </Carousel.Item>
 
      </Carousel>
-    </div>
+
   )
 }
 

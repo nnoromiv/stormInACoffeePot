@@ -21,3 +21,20 @@ h3{
 .map img{
     height: 400px;
 }
+
+@media screen and (max-width: 1026px) {
+    .map{
+        width: 100%;
+    }
+
+    .map img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .map img{
+        height: 200px;
+    }
+}
+

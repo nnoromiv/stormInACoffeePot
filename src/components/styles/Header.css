@@ -1,13 +1,20 @@
 .nav{
     padding: 20px 40px;
+    box-shadow: 1px 1px 8px brown;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    box-shadow: 1px 1px 8px brown;
+    z-index: 99;
 }
 
 .logo{
     max-width: 150px;
     max-height: 50px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo img {
@@ -35,4 +42,8 @@ h5{
 
 .faDirections:hover{
     color: gray;
+}
+
+@media screen and (max-width: 460px){
+
 }
